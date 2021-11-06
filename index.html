@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>
+        JavaScript prompt()
+    </title>
+    <script>
+        function fun() {
+            var a = prompt("Enter some text", "yo team Groot");
+            if (a != null) {
+                document.getElementById("para").innerHTML = "You Have Typed :  " + a;
+            }
+        }
+    </script>
+</head>
+
+<body style="text-align: center;">
+    <h1 style="color: blue;">
+        Hello My Team Members
+    </h1>
+    <h2>
+        Example Of The JavaScript Prompt() Method
+    </h2>
+
+    <button onclick="fun()">
+        Click Me
+    </button>
+    <p id="para"></p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti dolorum, nisi, id, nihil minima accusamus porro
+        voluptate natus voluptas pariatur rerum! Modi optio quibusdam maiores. Rem, necessitatibus quasi. A, beatae.</p>
+
+
+</body>
+
+</html>
